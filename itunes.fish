@@ -1,5 +1,3 @@
-# Play, pause etc. iTunes
-
 function itunes -d "Play, pause etc. iTunes. Use -h or --help for a more detailed description."
   if [ (count $argv) -gt 0 ]
     set -l opt $argv[1]

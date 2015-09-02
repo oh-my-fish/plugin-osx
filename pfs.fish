@@ -1,5 +1,3 @@
-# Return the path of the frontmost Finder window
-
 function pfs -d "Return the path of the frontmost Finder window"
   osascript 2>/dev/null -e '
     set output to ""

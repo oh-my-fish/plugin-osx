@@ -1,5 +1,3 @@
-# Move a specified file to the Trash
-
 function trash -d "Move a specified file to the Trash"
   if [ (count $argv) -gt 0 ]
     set -l trash_dir "$HOME/.Trash"
