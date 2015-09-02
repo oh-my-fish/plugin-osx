@@ -13,6 +13,6 @@ function trash -d "Move a specified file to the Trash"
       end
     end
   else
-    echo "No file(s) given to delete"
+    echo "No arguments given"
   end
 end

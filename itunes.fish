@@ -26,6 +26,6 @@ function itunes -d "Control iTunes. Use -h or --help for a more detailed descrip
     end
     osascript -e "tell application \"iTunes\" to $opt"
   else
-    echo "Arguments expected. Use -h or --help for a more detailed description."
+    echo "No arguments given. Use -h or --help for a more detailed description."
   end
 end
