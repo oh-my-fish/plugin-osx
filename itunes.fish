@@ -14,11 +14,11 @@ function itunes -d "Control iTunes. Use -h or --help for a more detailed descrip
       case "" -h --help
         echo "Usage: itunes <option>"
         echo "option:"
-        echo \t"launch|play|pause|stop|rewind|resume|quit"
-        echo \t"mute|unmute\tcontrol volume set"
-        echo \t"next|previous\tplay next or previous track"
-        echo \t"vol"\t"Set the volume, takes an argument from 0 to 100"
-        echo \t"help"\t"show this message and exit"
+        echo \t"launch, play, pause, stop, rewind, resume, quit"
+        echo \t"mute, unmute    Control volume set"
+        echo \t"next, previous  Play next or previous track"
+        echo \t"vol             Set the volume, takes an argument from 0 to 100"
+        echo \t"help            Show this message and exit"
         return 0
       case '*'
         echo "Unknown option $opt. Use -h or --help for a more detailed description."
