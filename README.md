@@ -22,7 +22,9 @@ functions:
 - `pfs` - Return the current Finder selection
 - `pushdf` - `pushd` to the current Finder directory
 - `ql` - Quick Look a specified file or directory
+- `showhidden` - Shows hidden files and folders in Finder
 - `trash` - Move a specified file to the Trash
+- `updatedb` - Updates locate command database
 
 > *Note*: the `tab` function was dropped in favor a more robust [plugin-tab].
 
