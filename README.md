@@ -16,7 +16,8 @@ Inspired by the [oh-my-zsh][original-plugin]’s plugin of same name by
 functions:
 
 - `cdf` - `cd` to the current Finder directory
-- `itunes` - Controle iTunes. Play, pause, stop, resume, etc.
+- `flushdns` - Flushes the DNS cache for Yosemite and El Capitan
+- `itunes` - Control iTunes: Play, pause, stop, resume, etc.
 - `manp` - Open a specified man page in Preview
 - `pfd` - Return the path of the frontmost Finder window
 - `pfs` - Return the current Finder selection
@@ -24,6 +25,7 @@ functions:
 - `ql` - Quick Look a specified file or directory
 - `showhidden` - Shows hidden files and folders in Finder
 - `trash` - Move a specified file to the Trash
+- `unset` - Emulates the `unset` command to unset an environment variable
 - `updatedb` - Updates locate command database
 
 > *Note*: the `tab` function was dropped in favor a more robust [plugin-tab].
