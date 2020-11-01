@@ -17,7 +17,7 @@ functions:
 
 - `cdf` - `cd` to the current Finder directory
 - `flushdns` - Flushes the DNS cache for Yosemite and El Capitan
-- `itunes` - Control iTunes: Play, pause, stop, resume, etc.
+- `music` - Control Music: Play, pause, stop, resume, etc.
 - `manp` - Open a specified man page in Preview
 - `pfd` - Return the path of the frontmost Finder window
 - `pfs` - Return the current Finder selection
@@ -41,7 +41,7 @@ $ omf install osx
 ## Usage
 
 ```fish
-$ itunes -h  # show usage and available options
+$ music -h  # show usage and available options
 $ manp fish  # open Fish's manpage in Preview
 $ ql *jpg    # quick look all such pictures
 ```
